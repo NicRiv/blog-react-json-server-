@@ -1,0 +1,102 @@
+.Inicio{
+	min-height: 88vh;
+}
+
+.ListaInicio{
+	padding: 30px;
+	/*display: flex;*/
+	/*justify-content: space-around;	*/
+}
+
+.visor{
+	display: flex;
+	justify-content: space-around;		
+}
+
+.list-ent{
+	padding: 10px;
+	width: 300px;
+	height: 400px;
+	border-radius: 5px;
+	border: 1px solid aliceblue;
+	background: rgb(254, 254, 254);
+	box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.4);
+	cursor: pointer;
+}
+
+.list-ent:hover{
+	border: 1px solid skyblue;
+}
+
+.list-ent .link-ent{
+	text-decoration: none;
+	color: black;
+}
+
+.list-ent .titulo{
+	padding-top: 5px;
+	padding-left: 5px;
+	font-size: 20px;
+	max-height: 59px;
+	overflow: hidden;
+}
+
+.list-ent .usuario{
+	padding: 10px;
+	padding-bottom:0 ;
+	/*margin-top: 10px;*/
+	font-size: 15px;
+	color: silver;
+}
+
+.list-ent .cuerpo{
+	padding-top: 0;
+	padding: 10px;
+	height: 250px;
+	font-size: 15px;
+	overflow: hidden;
+	color: rgb(100, 100, 100);
+}
+
+.list-ent .pClave{
+	margin-top: 5px;
+	padding: 5px;
+	height: 44px;
+	color: royalblue;
+	overflow: hidden;
+}
+
+.indice{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.indice div{
+	margin: 10px;
+	width: 50px;
+	height: 8px;
+	background: rgb(220, 220, 220);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.indice div:hover{
+	background: rgb(230, 230, 230);	
+}
+
+.indice .indice1-act,
+.indice .indice2-act{
+	margin: 0;
+	width: 50px;
+	height: 8px;
+	background: rgb(170, 170, 170);
+	border-radius: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.indice .indice1-act:hover,
+.indice .indice2-act:hover{
+	background: rgb(170, 170, 170); /*bloquea el '.indice div:hover'*/
+}

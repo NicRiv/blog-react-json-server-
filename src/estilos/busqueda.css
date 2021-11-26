@@ -1,0 +1,90 @@
+.pag-busqueda{
+	padding: 10px;
+}
+
+.pag-busqueda button{
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: none;
+	box-shadow: 1px 1px 3px rgba(150, 150, 150, .5);
+	cursor: pointer;
+}
+
+.pag-busqueda button:hover{
+	background: rgb(250, 250, 250);
+}
+
+.resultados{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.list-ent-busq{
+	margin: 10px;
+	padding: 10px;
+	height: 120px;
+	border: 1px solid aliceblue;
+	border-radius: 5px;
+	background: rgb(253, 253, 253);
+	box-shadow: 1px 1px 3px rgba(150, 150, 150, .5);
+	cursor: pointer;
+}
+
+.list-ent-busq:hover{
+	border: 1px solid blue;
+}
+
+.list-ent-busq .link{
+	color: black;
+	text-decoration: none;
+}
+
+.list-ent-busq .titulo{
+
+}
+
+.list-ent-busq .usuario{
+	font-size: 11px;
+	color: silver;
+}
+
+.list-ent-busq .cuerpo{
+	height: 40px;
+	font-size: 13px;
+	overflow: hidden;
+}
+
+.list-ent-busq .pClave{
+	font-size: 13px;
+	color: royalblue;
+	overflow: hidden;
+}
+
+.masResultados-act{
+	margin: 5px;
+	margin-top: 15px;
+	padding: 10px;
+	background: ghostwhite;
+	color: royalblue;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(150, 150, 150, .5);
+	cursor: pointer;
+}
+.masResultados-act:hover{
+	background: rgb(240, 240, 240);
+}
+
+.masResultados-inact{
+	margin: 5px;
+	margin-top: 15px;
+	padding: 10px;
+	background: ghostwhite;
+	color: gray;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(150, 150, 150, .5);
+}

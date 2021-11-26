@@ -1,0 +1,56 @@
+.Navbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 4px solid aliceblue;
+}
+
+.Navbar h2{
+	color: white;
+	text-shadow: 1.3px 0 0 steelblue, -1.3px 0 0 steelblue,
+				0 1.3px 0 steelblue, 0 -1.3px 0 steelblue;
+}
+
+.Div-Form-busqueda{
+	width: 50vw;
+	padding: 10px;
+	display: flex;
+	justify-content: safe end;
+	align-items: center;
+}
+
+.Form-busqueda{
+	margin-right: 60px;
+	display: flex;
+}
+
+.Form-busqueda .busqueda{
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid lightsteelblue;
+	border-right: none;
+	border-radius: 50px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.Form-busqueda .icon-busqueda{
+	width: 40px;
+	height: 30px;
+	border: 1px solid lightsteelblue;
+	border-left: none;
+	border-radius: 50px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background: white no-repeat center url(https://es.wikipedia.org/w/skins/Vector/resources/common/images/search.svg?bbf78);
+}
+
+.Div-Form-busqueda .Link{
+	margin-left: 30px;
+	text-decoration: none;
+	color: skyblue;
+	font-weight: bold;
+}
