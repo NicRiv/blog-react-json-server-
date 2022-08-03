@@ -12,10 +12,10 @@ Un blog, estilo wikipedia, usando una fake-api en json-server.
     npm install -g json-server
 
 ### Ejecutar
-Json-Server (port: 8000):
+###### Json-Server (port: 8000):
     json-server --watch datos/db.json --port 8000
 
-React:
+###### React:
     npm start
 
 ## Inicio
